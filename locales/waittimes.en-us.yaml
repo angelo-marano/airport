@@ -1,0 +1,6 @@
+- id: "waittime.created.success"
+  translation: "Waittime was successfully created."
+- id: "waittime.updated.success"
+  translation: "Waittime was successfully updated."
+- id: "waittime.destroyed.success"
+  translation: "Waittime was successfully destroyed."

@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>Edit Checkpoint</h1>
+</div>
+
+<%= form_for(checkpoint, {action: checkpointPath({ checkpoint_id: checkpoint.ID }), method: "PUT"}) { %>
+  <%= partial("checkpoints/form.html") %>
+  <a href="<%= checkpointPath({ checkpoint_id: checkpoint.ID }) %>" class="btn btn-warning" data-confirm="Are you sure?">Cancel</a>
+<% } %>

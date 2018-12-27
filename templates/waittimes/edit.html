@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>Edit Waittime</h1>
+</div>
+
+<%= form_for(waittime, {action: waittimePath({ waittime_id: waittime.ID }), method: "PUT"}) { %>
+  <%= partial("waittimes/form.html") %>
+  <a href="<%= waittimePath({ waittime_id: waittime.ID }) %>" class="btn btn-warning" data-confirm="Are you sure?">Cancel</a>
+<% } %>

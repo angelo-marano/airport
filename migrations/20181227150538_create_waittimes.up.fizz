@@ -1,0 +1,6 @@
+create_table("waittimes") {
+	t.Column("id", "uuid", {primary: true})
+	t.Column("waitinminutes", "int")
+	t.Column("checkpoint_id", "uuid")
+	t.ForeignKey("checkpoint_id", {"checkpoints" : ["id"]}, {"on_delete": "cascade"})
+}

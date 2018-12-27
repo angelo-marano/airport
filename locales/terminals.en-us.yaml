@@ -1,0 +1,6 @@
+- id: "terminal.created.success"
+  translation: "Terminal was successfully created."
+- id: "terminal.updated.success"
+  translation: "Terminal was successfully updated."
+- id: "terminal.destroyed.success"
+  translation: "Terminal was successfully destroyed."

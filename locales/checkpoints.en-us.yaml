@@ -1,0 +1,6 @@
+- id: "checkpoint.created.success"
+  translation: "Checkpoint was successfully created."
+- id: "checkpoint.updated.success"
+  translation: "Checkpoint was successfully updated."
+- id: "checkpoint.destroyed.success"
+  translation: "Checkpoint was successfully destroyed."

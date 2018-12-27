@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>New Terminal</h1>
+</div>
+
+<%= form_for(terminal, {action: terminalsPath(), method: "POST"}) { %>
+  <%= partial("terminals/form.html") %>
+  <a href="<%= terminalsPath() %>" class="btn btn-warning" data-confirm="Are you sure?">Cancel</a>
+<% } %>
